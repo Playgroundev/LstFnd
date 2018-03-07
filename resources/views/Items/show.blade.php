@@ -36,6 +36,7 @@
                             </tbody>
                         </table>
                         @endif
+                    {{ $items->links() }}
                 </div>
             </div>
         </div>

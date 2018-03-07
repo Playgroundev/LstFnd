@@ -35,7 +35,7 @@ class ItemsController extends Controller
     }
 
     public function showAll(){
-        $items = Item::all();
+        $items = Item::paginate(10);
 
         return view('Items.show',compact('items'));
     }
