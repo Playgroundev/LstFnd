@@ -16,6 +16,7 @@
                    <p>
                        See Added <a href="{{url('all_items')}}">Items</a>
                    </p>
+                    <p> Add Lost <a href="{{url('/add')}}">Items</a></p>
                 </div>
             </div>
         </div>
