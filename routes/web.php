@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/add','ItemsController@showGetPage');
 Route::post('/add','ItemsController@StoreItem');
+Route::get('/getAll','ItemsController@showAll');

@@ -33,4 +33,10 @@ class ItemsController extends Controller
     public function showGetPage(){
         return view('Items.create');
     }
+
+    public function showAll(){
+        $items = Item::all();
+
+        return view('Items.show',compact('items'));
+    }
 }

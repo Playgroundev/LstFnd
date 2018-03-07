@@ -14,7 +14,7 @@
                         </div>
                     @endif
                    <p>
-                       See Added <a href="{{url('all_items')}}">Items</a>
+                       See Added <a href="{{url('/getAll')}}">Items</a>
                    </p>
                     <p> Add Lost <a href="{{url('/add')}}">Items</a></p>
                 </div>
