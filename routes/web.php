@@ -19,6 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/test',function(){
-   return view('Items.create');
-});
+Route::get('/add','ItemsController@showGetPage');
+Route::post('/add','ItemsController@StoreItem');

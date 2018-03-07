@@ -8,8 +8,8 @@
 
                 <div class="panel-body">
                     @include('includes.flash')
-                    <form class="form-horizontal" role="form" method="POST" action="{{url('/')}}">
-                        {{ !csrf_field() }}
+                    <form class="form-horizontal" role="form" method="POST" action="{{url('/add')}}">
+                        {!! csrf_field() !!}
                         <div class="form-group{{$errors->has('categories') ? 'has-error': ''}}">
                             <label for="category" class="col-md-4 control-label">Category</label>
 
