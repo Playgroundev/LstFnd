@@ -6,5 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Item extends Model
 {
-    protected $table = 'Items';
+    protected $table = 'items';
+
+    protected $fillable = [
+        'category','item_name','serial_number','description'
+    ];
 }
