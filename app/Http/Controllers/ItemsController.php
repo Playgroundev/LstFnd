@@ -10,4 +10,10 @@ class ItemsController extends Controller
     {
         $this->middleware('auth');
     }
+
+    public function StoreItem(Request $request){
+        $this->validate($request,[
+
+        ]);
+    }
 }

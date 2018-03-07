@@ -9,6 +9,6 @@ class Item extends Model
     protected $table = 'items';
 
     protected $fillable = [
-        'category','item_name','serial_number','description'
+        'category','item_name','serial_number','description','user_id'
     ];
 }
